@@ -25,11 +25,28 @@
         flex-wrap: wrap;
         gap: 150px;
     }
+
+    footer {
+    justify-content: end;
+    text-align: center;
+    margin-top: 180px;
+    
+}
+
+#knight {
+    animation-name: horsey;
+    animation-duration: 4s;
+}
+
+@keyframes horsey {
+    0% { transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
 </style>
 
 <body>
     <nav>
-        <div class="container">
+        <div class="container1">
             <ul>
                 <div>
                     <h1>Chess 101</h1>
@@ -108,14 +125,30 @@
                     </tbody>
                 </table>
             </div>
+            <img src="https://en.chessbase.com/Portals/all/thumbs/114/114763.jpeg" id="knight" style="width: 200px; height: 200px;">
         </div>
         <br>
         <br>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt nemo eius inventore, cumque porro ipsa explicabo. Recusandae placeat animi aliquam deleniti eum corporis, assumenda id fuga ipsa maxime distinctio nobis!</p>
-
+        <br>
+        <br>
+        <form>
+            
+                <legend>Enter your name and email below if you want to become a top Chess 101 player!</legend>
+                <br>
+                <label for="contactName">Name:
+                    <input type="text" name="contactName" id="contactName" />
+                </label>
+                <label for="email">Email:
+                    <input type="email" name="email" id="email" />
+                </label>
+                <br/>
+            <input type="submit" value="Send"/>
 
     </main>
-
+    <footer>
+        <h4>Copyright 2024 Christopher Collado<span>&#8482;</span></h4>
+    </footer>
 
 </body>
 

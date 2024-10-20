@@ -10,30 +10,30 @@ body {
     margin: auto;
 }
 
-.container {
+.container1 {
     width: 100%;
     height: 50px;
     background-color: aliceblue;
     padding: 10px;
 }
 
-.container ul {
+.container1 ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
 
-.container li {
+.container1 li {
     float: left;
     padding: 5px;
 }
 
-.container li a {
+.container1 li a {
     text-decoration: none;
     color: black;
 }
 
-.container a:hover {
+.container1 a:hover {
     background-color: bisque;
 }
 
